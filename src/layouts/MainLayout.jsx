@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import BottomNav from '../components/layout/BottomNav.jsx
-import TopBar from '../components/layout/TopBar.jsx
+import BottomNav from '../components/layout/BottomNav.jsx';
+import TopBar from '../components/layout/TopBar.jsx';
 
 export default function MainLayout() {
   const location = useLocation();

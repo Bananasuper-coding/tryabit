@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import MainLayout from './layouts/MainLayout.jsx';
-import Dashboard from './pages/Dashboard';
-import Lessons from './pages/Lessons';
-import LessonDetail from './pages/LessonDetail';
+import MainLayout from './MainLayout.jsx';
+import Dashboard from './Dashboard.jsx';
+import Lessons from './Lessons.jsx';
+import LessonDetail from './LessonDetail.jsx';
 import Practice from './pages/Practice';
 import Games from './pages/Games';
 import Profile from './pages/Profile';

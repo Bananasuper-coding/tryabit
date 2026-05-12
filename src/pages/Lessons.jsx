@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { lessons } from '../data/lessons/lessonsData';
 import { useLessonStore } from '../stores/lessonStore';
-import { Card, Badge } from '../components/ui/index';
+import { Card } from '../components/ui/Card.jsx';
+import { Badge } from '../components/ui/Badge.jsx';
 
 export default function Lessons() {
   const { isLessonCompleted, getWeekProgress } = useLessonStore();

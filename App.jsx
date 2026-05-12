@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import MainLayout from '../layouts/MainLayout.jsx';
+import MainLayout from './layouts/MainLayout.jsx';
 import Dashboard from './pages/Dashboard';
 import Lessons from './pages/Lessons';
 import LessonDetail from './pages/LessonDetail';

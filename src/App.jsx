@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
 // Sửa lại đường dẫn: Bỏ 'layouts/' và 'pages/' vì file nằm ngay bên cạnh App.jsx
-import MainLayout from './MainLayout.jsx';
+import MainLayout from './layouts/MainLayout.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import Lessons from './pages/Lessons.jsx';
 import LessonDetail from './LessonDetail.jsx';

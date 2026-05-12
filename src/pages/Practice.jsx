@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { useUserStore } from '../stores/userStore';
+import { useUserStore } from '../stores/lessonStore';
 import { Card, Button, Badge, Tabs } from '../components/ui';
 
 export default function Practice() {

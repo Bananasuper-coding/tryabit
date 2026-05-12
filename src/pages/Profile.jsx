@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useUserStore } from '../stores/userStore';
+import { useUserStore } from '../stores/lessonStore';
 import { Card, Button, Badge, ProgressBar, Avatar } from '../components/ui';
 import { Link } from 'react-router-dom';
 

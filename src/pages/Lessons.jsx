@@ -28,7 +28,7 @@ export default function Lessons() {
       </motion.div>
 
       <div className="space-y-6">
-        {lessonsData.map((week, weekIndex) => {
+        {lessons.map((week, weekIndex) => {
           const progress = getWeekProgress(week.id);
           const completedDays = week.days.filter(d => isLessonCompleted(week.id, d.id)).length;
           const isWeekUnlocked = weekIndex === 0 || getWeekProgress(lessonsData[weekIndex - 1].id) >= 80;

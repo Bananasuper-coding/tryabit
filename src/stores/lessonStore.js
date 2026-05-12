@@ -208,3 +208,14 @@ export const useLessonStore = create(
     }
   )
 );
+// Giữ nguyên phần code useLessonStore ở trên, dán thêm đoạn này vào cuối:
+
+export const useUserStore = create((set) => ({
+  user: {
+    name: "User",
+    level: "Intermediate",
+    points: 1250,
+    streak: 5
+  },
+  updateUser: (newData) => set((state) => ({ user: { ...state.user, ...newData } }))
+}));

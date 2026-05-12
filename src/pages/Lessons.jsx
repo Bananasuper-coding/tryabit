@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { lessonsData } from '../data/lessons/lessonsData';
+import { lessons } from '../data/lessons/lessonsData';
 import { useLessonStore } from '../stores/lessonStore';
 import { Card, Badge } from '../components/ui';
 
